@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>CSS Selectors & Combinators</title>
+
+    <style>
+        
+        h1 {
+            color: darkgreen;
+            text-align: right;
+        }
+
+        p {
+            color: blue;
+        }
+
+        section > p {
+            color: green;
+        }
+
+        section p {
+            text-decoration: none;
+            color: brown;
+        }
+
+        article + p {
+            color: red;
+        }
+
+        .second {
+            background-color: grey;
+        
+        }
+        h1.bg-grey {background-color: orange}
+        
+    </style>
+
+</head>
+
+<body>
+
+    <h1 class="second">Meine erste Website</h1>
+
+    <article>
+
+        <section>
+            <p>Lorem ipsum sdkfjd ldfjkd ffkdfjldf ldfj df Lorem ipsum sdkfjd ldfjkd ffkdfjldf ldfj df Lorem ipsum sdkfjd ldfjkd ffkdfjldf ldfj df Lorem ipsum sdkfjd ldfjkd ffkdfjldf ldfj df Lorem ipsum sdkfjd ldfjkd ffkdfjldf ldfj df Lorem ipsum sdkfjd ldfjkd <a href="http://www.faz.de">Großartige Zeitung</a> ffkdfjldf ldfj df Lorem ipsum sdkfjd ldfjkd ffkdfjldf ldfj df Lorem ipsum sdkfjd ldfjkd ffkdfjldf ldfj df Lorem ipsum sdkfjd ldfjkd ffkdfjldf ldfj df</p>
+
+            <p class="second">ffkdfjldf ldfj df Lorem ipsum sdkfjd ldfjkd ffkdfjldf ldfj df Lorem ipsum sdkfjd ldfjkd ffkdfjldf ldfj df Lorem ipsum sdkfjd ldfjkd ffkdfjldf ldfj df lipsum lipsum lipsum</p>
+            
+        </section>
+
+    </article>
+
+    <p>lorem lipsum</p>
+
+</body>
+
+</html>

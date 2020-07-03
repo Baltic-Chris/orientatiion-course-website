@@ -1,0 +1,14 @@
+body    {margin: 0;}
+a       {text-decoration: none;
+        font-size: 30px;
+        display: inline-block;
+        padding: 10px 20px;
+        color: white;}
+p       {color: darkblue;
+        font-family: 'Chelsea Market', cursive}
+nav     {background-color: blueviolet;
+        text-align: center}
+a:hover {background-color: darkgreen;
+        color: white;}
+a:active {background-color: forestgreen;}       fa-adn {font-size: 50px;
+        color: white}
